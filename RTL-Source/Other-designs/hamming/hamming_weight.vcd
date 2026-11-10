@@ -1,0 +1,73 @@
+$date
+	Mon Oct  5 13:12:44 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module hamming_weight_tb $end
+$var wire 4 ! count [3:0] $end
+$var reg 8 " din [7:0] $end
+$scope module uut $end
+$var wire 8 # din [7:0] $end
+$var reg 4 $ count [3:0] $end
+$var integer 32 % i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1000 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1 !
+b1 $
+b1000 %
+b1 "
+b1 #
+#20000
+b1000 %
+b1 !
+b1 $
+b10000000 "
+b10000000 #
+#30000
+b1000 %
+b11 !
+b11 $
+b111 "
+b111 #
+#40000
+b1000 %
+b100 !
+b100 $
+b10100101 "
+b10100101 #
+#50000
+b1000 %
+b100 !
+b100 $
+b1011010 "
+b1011010 #
+#60000
+b1000 %
+b111 !
+b111 $
+b11111110 "
+b11111110 #
+#70000
+b1000 %
+b1000 !
+b1000 $
+b11111111 "
+b11111111 #
+#80000

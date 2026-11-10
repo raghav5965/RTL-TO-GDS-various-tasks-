@@ -1,0 +1,71 @@
+$date
+	Mon Oct  5 12:52:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module shift_muldiv_tb $end
+$var wire 16 ! mul [15:0] $end
+$var wire 8 " div [7:0] $end
+$var reg 8 # a [7:0] $end
+$var reg 3 $ n [2:0] $end
+$scope module uut $end
+$var wire 8 % a [7:0] $end
+$var wire 3 & n [2:0] $end
+$var reg 8 ' div [7:0] $end
+$var reg 16 ( mul [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11000 (
+b110 '
+b1 &
+b1100 %
+b1 $
+b1100 #
+b110 "
+b11000 !
+$end
+#10000
+b11 "
+b11 '
+b110000 !
+b110000 (
+b10 $
+b10 &
+#20000
+b101 "
+b101 '
+b101000000 !
+b101000000 (
+b11 $
+b11 &
+b101000 #
+b101000 %
+#30000
+b11001 "
+b11001 '
+b110010000 !
+b110010000 (
+b10 $
+b10 &
+b1100100 #
+b1100100 %
+#40000
+b1111 "
+b1111 '
+b111111110000 !
+b111111110000 (
+b100 $
+b100 &
+b11111111 #
+b11111111 %
+#50000
